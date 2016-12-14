@@ -1,0 +1,36 @@
+title: "Mesonoxian"
+description: "Personal blogging"
+locale: en
+author: Mesonoxian
+
+countdown:
+  theme: red
+  year: 2017
+  month: 1
+  day: 1
+  hour: 0
+  minute: 0
+
+# Site owner
+owner:
+  name: Mesonoxian
+  email:
+  facebook:
+  twitter:
+  instagramm:
+
+  aboutlink:
+    url:
+    caption:
+
+
+sass:
+  sass_dir: _sass
+  style: compressed
+permalink: /:categories/:title/
+kramdown:
+  toc_levels: 1..2
+highlighter: rouge
+
+
+exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]
